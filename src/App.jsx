@@ -1,10 +1,15 @@
 import React from 'react'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
+  <React.Fragment>
+    <Navbar/>
+      {/* <Routes> */}
+        {/* <Route path='/' element={<Home />} /> */}
+      {/* </Routes> */}
+    {/* <Footer/> */}
+  </React.Fragment>
   )
 }
 

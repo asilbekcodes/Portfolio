@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#root {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DMSans", sans-serif;
+}
+
+body{
+    background-color: #0c0c1d;
+    color: lightgray;
+}
+
+/* section{
+    height: 100vh;
+    scroll-snap-align: center;
+} */
